@@ -9,7 +9,7 @@ export class DBUtil {
             }, (error) => {
                 if (error) {
                     console.log(error);
-                    reject('DB Connection is FAILED');
+                    reject('DB Connection is FAILED...');
                 }
                 resolve('DB Connection is SUCCESS');
             })
